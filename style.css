@@ -1,0 +1,182 @@
+#navybar{
+    display: flex;
+    justify-content: space-between;
+
+}
+#home{
+    display: flex;
+}
+#mid{
+display: flex;
+justify-content: space-between;
+gap: 200px;
+}
+#login{
+    display: flex;
+    gap: 100px;
+    font-size: x-large;
+    
+}
+#button{
+    background-color: skyblue;
+    border-radius: 10%;
+    width:200px;
+
+   
+}
+#tin{
+    display: flex;
+    justify-content: center;
+    
+}
+#word{
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    gap:5%;
+
+}
+
+#star{
+    display: flex;
+
+}
+#bin{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    
+}
+#manni{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+    font-size: x-large;
+}
+#mid{
+    font-size: x-large;
+}
+#explore{
+    font-size: xx-large;
+}
+#bag{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+#img{
+    display: flex;
+    
+}
+#central{
+    display:flex;
+    justify-content: space-around;
+    
+}
+#pictures{
+    font-size: x-large;
+}
+#carrie{
+    text-align: center;
+    
+}
+#picha{
+    display: flex;
+    justify-content: space-between;
+}
+#big{
+    display: flex;
+    justify-content: space-between;
+}
+#bigger{
+    text-align: center;
+}
+#book{
+    text-align: center;
+}
+#subscribe{
+    display: flex;
+    justify-content: center;
+    gap:10%;
+}
+#email{
+    display: flex;
+    
+}
+#phone{
+    display: flex;
+}
+#home1{
+   display: flex;
+   
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+#start{
+    display: flex;
+}
+@media screen and (max-width:740px) {
+    body{
+        font-size: 12px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    
+    #navybar{
+        display: grid;
+        margin-right: 250px;
+        grid-template-columns: 1 1fr;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: 1 1fr;
+    }
+    #big{
+        display: grid ;
+    }
+    #picha{
+        display: grid;
+        width: 10%;
+    }
+    #central{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        width: 10%;
+        font-size: 5px;
+        height: 50%;
+        margin-left: 10%;
+
+    }
+    #bag{
+        display: grid;
+    }
+    #explore{
+        display: grid;
+    }
+    #manni{
+        display: grid;
+    }
+    #mid{
+        display: grid;
+    }
+    #centre{
+        display: grid;
+        flex-wrap: nowrap;
+    }
+    #login{
+        display: grid;
+        flex-wrap: wrap;
+        width: 70%;
+        height: 70%;
+        grid-auto-columns: 1 1fr;
+    }
+}
